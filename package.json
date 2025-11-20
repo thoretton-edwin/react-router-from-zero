@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "react-router dev"
+  },
+  "dependencies": {
+    "@react-router/node": "^7.9.6",
+    "@react-router/serve": "^7.9.6"
+  },
+  "devDependencies": {
+    "vite-tsconfig-paths": "^5.1.4",
+    "@react-router/dev": "^7.9.6",
+    "add": "^2.0.6",
+    "vite": "^7.2.4"
+  }
+}
