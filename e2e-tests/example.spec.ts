@@ -11,5 +11,5 @@ test("has hello world", async ({ page }) => {
   await page.goto('http://localhost:5173/');
 
   // Expects page to have a heading with the name of Installation.
-  await expect(page.getByText(/hello world/i)).toBeVisible();
+  await expect(page.getByText(/Hello world from the server!/i)).toBeVisible();
 });
