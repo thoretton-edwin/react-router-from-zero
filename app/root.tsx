@@ -7,7 +7,7 @@ import {
 export default function App() {
     return (
         <html lang="en">
-        <head title={"react-router-from-zero-to-hero"}>
+        <head title="react-router-from-zero-to-hero">
             <meta charSet="utf-8" />
             <meta
                 name="viewport"
