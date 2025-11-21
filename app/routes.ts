@@ -1,9 +1,10 @@
 import {
     type RouteConfig,
-    route,
+    route, index,
 } from "@react-router/dev/routes";
 
 export default [
+    index("./pages/main.tsx"),
     route("/", "./pages/main.tsx"),
     // pattern ^           ^ module file
 ] satisfies RouteConfig;
