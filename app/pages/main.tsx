@@ -10,7 +10,7 @@ export default function Route({
                               }: Route.ComponentProps) {
     return (
         <>
-            <h1>{loaderData.message}</h1>
+            <h1 className="text-3xl font-bold underline">{loaderData.message}</h1>
             {loaderData.element}
         </>
     );
