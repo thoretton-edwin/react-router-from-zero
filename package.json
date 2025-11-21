@@ -2,20 +2,29 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "react-router dev"
+    "dev": "react-router dev",
+    "test": "vitest"
   },
   "dependencies": {
     "@react-router/node": "^7.9.6",
     "@react-router/serve": "^7.9.6",
+    "@types/react-dom": "^19.2.3",
+    "@types/react-router": "^5.1.20",
     "isbot": "^5",
     "react-dom": "^19.2.0",
     "react-router": "^7.9.6"
   },
   "devDependencies": {
     "@react-router/dev": "^7.9.6",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
     "@types/react": "^19.2.6",
     "add": "^2.0.6",
+    "jsdom": "^27.2.0",
+    "typescript": "^5.9.3",
     "vite": "^7.2.4",
-    "vite-tsconfig-paths": "^5.1.4"
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^4.0.12"
   }
 }

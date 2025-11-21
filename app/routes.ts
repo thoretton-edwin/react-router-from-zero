@@ -5,6 +5,5 @@ import {
 
 export default [
     index("./pages/main.tsx"),
-    route("/", "./pages/main.tsx"),
     // pattern ^           ^ module file
 ] satisfies RouteConfig;
