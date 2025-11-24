@@ -1,3 +1,5 @@
+import type { Route } from "./+types/main";
+
 export async function loader() {
     return {
         message: "Hello world from the server!",

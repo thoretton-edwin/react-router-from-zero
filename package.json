@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "react-router dev",
     "test": "vitest",
-    "test:e2e": "npx playwright test --ui"
+    "test:e2e": "npx playwright test --ui",
+    "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
     "@react-router/node": "^7.9.6",
